@@ -1,0 +1,150 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aplicacoes.com.br.flowwater.fragments.TipsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient">
+        ​
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="1.Evite banhos demorados"
+                    android:textColor="@color/white"
+                    android:id="@+id/txtView1" />
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Num banho de imersão gasta cerca de 180 litros de água,tome ducha em vez de banho de imersão, e não esqueça seja rápido e enquanto se ensaboa não deixe correr a água do chuveiro."
+                    android:textColor="@color/white"
+                    android:id="@+id/DescriptionOne"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/txtView1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="2.Reuso de água"
+                    android:textColor="@color/white"
+                    android:id="@+id/txtView2" />
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Uma máquina de lavar roupa consome 60 a 90 litros por lavagem. Use-a apenas com a carga máxima. Para pouca roupa ou peças isoladas não use a máquina e se sobrar água utilize novamente em lavegens de outros ambientes."
+                    android:textColor="@color/white"
+                    android:id="@+id/DescriptionTwo"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/txtView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="3.Conserto de vazamentos"
+                    android:textColor="@color/white"
+                    android:id="@+id/txtView3" />
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="O pingar de torneiras e chuveiros pode gastar cerva de 10 litros, este desperdício pode ser evitado com uma simples manutenção em torneiras e canos."
+                    android:textColor="@color/white"
+                    android:id="@+id/DescriptionThree"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/txtView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="4.Regar plantas em horários adequados"
+                    android:textColor="@color/white"
+                    android:id="@+id/txtView4" />
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Há plantas que necessitam de pouca água. Evite regá-las sem necessidade. Se possível, utilize água de poços ou mesmo água de lavagem de legumes ou frutos. Regar de manhã cedo ou a noite, é poupar água!"
+                    android:textColor="@color/white"
+                    android:id="@+id/DescriptionFour"
+                    android:layout_toRightOf="@+id/txtView4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/txtView4"
+                    android:layout_marginTop="-16dp" />
+            </RelativeLayout>
+        ​
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="5.Otimizar o uso da água em serviços domésticos"
+                    android:textColor="@color/white"
+                    android:id="@+id/txtView5" />
+                ​
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Na cozinha, antes de lavar os pratos, panelas ou frigideiras, limpe-os com papel. Se necessário, deixe 'e molho's tachos e panelas. Não lave a louça peça a peça. Junte-a e lave-a 1 ou 2 vezes por dia."
+                    android:textColor="@color/white"
+                    android:id="@+id/DescriptionFive"
+                    android:layout_toRightOf="@+id/txtView5"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/txtView5"
+                    android:layout_marginTop="-16dp" />
+            </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
