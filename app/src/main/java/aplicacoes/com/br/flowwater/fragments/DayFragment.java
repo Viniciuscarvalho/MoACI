@@ -95,12 +95,18 @@ public class DayFragment extends Fragment {
 
     private ArrayList<String> getXAxisValues() {
         ArrayList<String> xAxis = new ArrayList<>();
-        xAxis.add("Jan");
-        xAxis.add("Fev");
-        xAxis.add("Mar");
-        xAxis.add("Abr");
-        xAxis.add("Mai");
-        xAxis.add("Jun");
+        xAxis.add("Seg");
+        xAxis.add("Ter");
+        xAxis.add("Qua");
+        xAxis.add("Qui");
+        xAxis.add("Sex");
+        xAxis.add("Sab");
+        xAxis.add("Dom");
+
+
+        //TODO Add line limited
+        LimitLine line = new LimitLine(65f);
+        line.setLineColor(Color.RED);
 
         return xAxis;
     }

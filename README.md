@@ -1,7 +1,7 @@
 
 
 =======
-# MoACI - Monitoramento de água residencial para cidades inteligentes.
+# MoARCI - Monitoramento de água residencial para cidades inteligentes.
 
 Este projeto é uma iniciativa de fazer o uso do monitoramento residêncial utilizando Raspberry Pi + broker MQTT + aplicação mobile.
 
@@ -17,13 +17,13 @@ Se você quiser fazer alguma modificação, melhorias ou observar um novo tipo d
 
 ### Contato
 
-E-mail: [viniciuscarvalho789@gmail.com]
+E-mail: viniciuscarvalho789@gmail.com
 
 ## Licença
 
 The MIT License (MIT)
 
-Copyright (c) [2015] [Vinicius Carvalho]
+Copyright (c) 2015 - Vinicius Carvalho
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
